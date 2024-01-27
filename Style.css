@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("/matrix_background.jpg"); /* Change background to matrix */
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.title {
+  color: #00ff00; /* Change title color to matrix green */
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.network-btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.network-btn {
+  margin: 0.4rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #000000; /* Change button text color to black */
+  background: #000000; /* Set button background to black */
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Modify box-shadow to create a glow effect */
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.network-btn::before {
+  content: "";
+  display: block;
+  z-index: -1;
+  background: linear-gradient(to right, #00ff00, #00ff00); /* Change neon lights to matrix green */
+  transform: skew(-10deg);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  opacity: 0.5; /* Adjust the opacity for a subtle glowing effect */
+  filter: blur(10px); /* Apply a blur effect to the glowing lights */
+  transition: opacity 0.5s ease-in-out; /* Add transition for the glowing effect */
+}
+
+.network-btn:hover::before {
+  opacity: 1; /* Increase opacity on hover to make the lights glow more */
+}
+
+.network-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px rgba(0, 255, 0, 0.9); /* Increase the glow on hover */
+}
+
+.network-btn:focus {
+  border: 2px solid yellow;
+}
+
+/* Add more styles as needed */
+
+/* Unique font for the "choose your language" text */
+.h1 {
+  font-family: 'Your Unique Font', sans-serif; /* Replace with your unique font */
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
