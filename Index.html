@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+  body {
+    background-color: #f4f4f4;
+    font-family: 'Your Font', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 1em;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.network-btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.network-btn {
+    margin: 45px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+}
+
+.network-btn:hover {
+    background-color: #1f618d;
+}
+
+.network-btn:focus {
+    border: 2px solid yellow;
+}
+
+.heart-icon {
+    margin-right: 10px;
+}
+
+.neon-effect {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.funny-btn {
+    background-color: #ffcc29;
+    color: #000;
+}
+
+.love-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.sad-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+.emoji {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+</style>
+    <title>Select Messages</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title">Select Messages</h2>
+    </div>
+    <div class="container">
+        <div class="network-btn-group">
+            <button id="english" class="network-btn neon-effect funny-btn" onclick="location.href='#'">
+                <span class="heart-icon">🤣</span>
+                Funny Messages
+            </button>
+            <button id="urdu" class="network-btn neon-effect love-btn" onclick="location.href='#'">
+                <span class="heart-icon">💞</span> Love Messages
+            </button>
+            <button id="bengali" class="network-btn neon-effect sad-btn" onclick="location.href='#'">
+                <span class="heart-icon">💔</span>
+                Sad Messages
+            </button>
+        </div>
+    </div>
+    <script src='js/jquery-3.5.1.min.js'></script>
+    <script src="js/main.js"></script>
+    <script src="js/kaiads.v5.min.js"></script>
+</body>
+</html>
