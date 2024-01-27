@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "Fun ON",
+  "subtitle": "The Funniest Jokes in Three Languages",
+  "description": "Fun ON is a humor-filled application that provides users with endless jokes and humor. With a vast collection of jokes in Urdu, Bengali, and English, this app is sure to tickle your funny bone and leave you in splits. Whether you're feeling down or just want to brighten up your day, Fun ON is the perfect app for you. It features a user-friendly interface and easy-to-use navigation, making it suitable for people of all ages. Download Fun ON today and laugh your heart out with our hilarious collection of jokes.",
+  "type": "web",
+  "theme_color": "#FFFF00",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "permissions": {
+    "mobiledata": {},
+    "wifidata": {}
+  },
+  "categories": ["entertainment"],
+  "developer": {
+    "name": "M Zubair",
+    "url": "https://github.com/mzubairtalha"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Fun ON",
+      "subtitle": "The Funniest Jokes in Three Languages",
+      "description": "Fun ON is a humor-filled application that provides users with endless jokes and humor. With a vast collection of jokes in Urdu, Bengali, and English, this app is sure to tickle your funny bone and leave you in splits. Whether you're feeling down or just want to brighten up your day, Fun ON is the perfect app for you. It features a user-friendly interface and easy-to-use navigation, making it suitable for people of all ages. Download Fun ON today and laugh your heart out with our hilarious collection of jokes."
+    }
+  },
+  "default_locale": "en-US",
+  "fullscreen": true
+}
