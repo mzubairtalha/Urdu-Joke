@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff url("/bg2.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff4d4d;
+  height: 250px;
+  width: 230px;
+  border-radius: 25px;
+  padding-top: 10px;
+  opacity: 0.95;
+}
+
+#quote {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 98%;
+  font-weight: bold;
+  line-height: 1.6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+#author {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 1em;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.network-btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.network-btn {
+  margin: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.2em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: center;
+}
+
+.network-btn:hover {
+  background-color: #1f618d;
+}
+
+.heart-icon {
+  margin-right: 10px;
+}
+
+.sample-message {
+  margin-top: 30px;
+  font-size: 1em;
+  color: #555;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.neon-effect {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.funny-btn {
+  background-color: #ffcc29;
+  color: #000;
+}
+
+.love-btn {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  bottom: 60%;
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.sad-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.emoji {
+  margin-left: 10px;
+  font-size: 1.5em;
+}
