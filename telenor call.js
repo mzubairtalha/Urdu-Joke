@@ -157,7 +157,9 @@ $(document).ready(function() {
       onerror: err => console.error('Custom catch:', err),
       onready: ad => {
         ad.call('display');
+        ad.on('display', () => document.getElementById("softKeysContainer").style.display = "none");
         ad.on('close', () => {
+          document.getElementById("softKeysContainer").style.display = "block";
           setTimeout(function() {
             getKaiAd({
               publisher: 'da08737d-861e-4ebe-bbbb-8fb90d004d39',
@@ -174,4 +176,3 @@ $(document).ready(function() {
     });
   }, 1000);
 });
-
